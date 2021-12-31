@@ -16,10 +16,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/Oshekher-git/Oshekher-RDP/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/Oshekher-git/Oshekher-RDP/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Oshekher-git/Oshekher-RDP/main/loop.bat -OutFile loop.bat
-    - name: Mendownload Launcher.
-      run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/Oshekher-git/Oshekher-RDP/main/launcher/Node.js.lnk -OutFile Node.js.lnk
-        Invoke-WebRequest https://raw.githubusercontent.com/Oshekher-git/Oshekher-RDP/main/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
+   
     - name: Mengextract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ke Akun Ngrok.
