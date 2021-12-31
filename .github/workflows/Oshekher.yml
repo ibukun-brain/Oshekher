@@ -33,6 +33,6 @@ jobs:
     - name: Membuat Tunnel.
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
     - name: Connect Ke RDP Kamu CPU 2 Core - 7GB Ram - 256 SSD.
-      run: cmd /c start.bat
+      run: cmd \c start.bat
     - name: Berhasil Dibuat! Anda Bisa Menutup Tab Sekarang.
-      run: cmd /c loop.bat
+      run: cmd \c loop.bat
